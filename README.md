@@ -11,7 +11,7 @@ The main function takes three arguments:
 3. A matrix containing information about the delivery packages. This contains five columns and a row for each package. The first two columns give x and y coordinates about where the package should be picked up from. The next two columns give x and y coordinates about where the package should be delivered to. The final column specifies the package status (0 is not picked up, 1 is picked up but not delivered, 2 is delivered). Your function should return the car object with the nextMove specified.
 
 ## Usage
-This script needs to be run together with the DeliveryMan package, which is not written by me. However, the tar file is included in the repository.
+This script needs to be run together with the DeliveryMan package, which is written by Mike Ashcroft for the AI course at Uppsala University. Having said that, the tar file is included in the repository.
 
 ``` R
 runDeliveryMan(carReady = myFunction, dim = 10, turns = 2000, doPlot = T, 
