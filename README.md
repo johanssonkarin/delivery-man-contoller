@@ -1,6 +1,6 @@
 # Delivery Man
 
-In this game, multiple deliveries are randomly placed on a city grid. The scope is to pick up and deliver all the deliveries as fast as possible under changing traffic conditions. Your score is the time it takes for your delivery man to complete this task.
+In the Delivery Man game, multiple deliveries are randomly placed on a city grid. The scope is to pick up and deliver all the deliveries as fast as possible under changing traffic conditions. Your score is the time it takes for your delivery man to complete this task.
 
 ## The script
 The script utilizes the [A* algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm) to find the best path for the delivery man dynamically. Since the script is rerun after each move, I did my best trying to keep down the time complexity of the functions. 
