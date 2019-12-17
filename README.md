@@ -3,7 +3,7 @@
 In this game, multiple deliveries are randomly placed on a city grid. The scope is to pick up and deliver all the deliveries as fast as possible under changing traffic conditions. Your score is the time it takes for your delivery man to complete this task.
 
 ## The script
-The script utilizes the [A* algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm) to find the best path for the delivery man dynamically. Since the script is rerun after each move of the delivery man, I did my best trying to keep down the time complexity of the functions. 
+The script utilizes the [A* algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm) to find the best path for the delivery man dynamically. Since the script is rerun after each move, I did my best trying to keep down the time complexity of the functions. 
 
 The main function takes three arguments:
 1. A list of two matrices giving the traffice conditions. The first matrix is named 'hroads' and gives a matrix of traffice conditions on the horizontal roads. The second matrix is named 'vroads' and gives a matrix of traffic conditional on the vertical roads. <1,1> is the bottom left, and <dim,dim> is the top right.
